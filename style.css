@@ -161,8 +161,12 @@ img {
 /* Seção de Funcionários */
 .team-section {
     background-color: #f8f9fa;
-    margin-top: -4%;
     padding-bottom: 3%;
+    padding-top: 5%;
+
+    @media (min-width: 768px) {
+        padding-top: 1%;
+    }
 }
 
 .team-section h2 {
@@ -303,6 +307,7 @@ img {
     position: static;
     bottom: 0;
     left: 0;
+    background-color: #f8f9fa;
 }
 
 .sobre-nos p{
